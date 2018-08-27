@@ -4,7 +4,7 @@ import { RouterExtensions } from "nativescript-angular/router";
 import { ObservableArray } from "tns-core-modules/data/observable-array/observable-array";
 import { EstimateService } from "../shared/services/estimate.service";
 import { Estimate } from "../shared/models/estimate.model";
-import { Procedure } from "~/shared/models/procedure.model";
+import { Procedure } from "../shared/models/procedure.model";
 
 @Component({
 	selector: "CalculatorResultComponent",

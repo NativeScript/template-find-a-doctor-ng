@@ -2,7 +2,7 @@ import { Component, ViewContainerRef, ViewChild, NgZone } from "@angular/core";
 import { ListViewEventData } from "nativescript-ui-listview";
 import { ObservableArray } from "tns-core-modules/data/observable-array/observable-array";
 import { ProcedureService } from "../shared/services/procedure.service"
-import { Procedure } from "~/shared/models/procedure.model";
+import { Procedure } from "../shared/models/procedure.model";
 import { SearchBar } from "ui/search-bar";
 import { EventData } from "data/observable";
 import { RadListViewComponent } from "nativescript-ui-listview/angular";

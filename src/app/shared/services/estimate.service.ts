@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Kinvey } from "kinvey-nativescript-sdk";
 import { Estimate } from "../models/estimate.model";
-import { Procedure } from "~/shared/models/procedure.model";
+import { Procedure } from "../../shared/models/procedure.model";
 
 @Injectable()
 export class EstimateService {
